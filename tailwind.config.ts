@@ -61,8 +61,10 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        code: ["var(--font-geist-mono)"],
-        regular: ["var(--font-geist-sans)"],
+        sans: ["var(--font-sans)"],
+        mono: ["var(--font-mono)", { weight: ["400", "700"] }],
+        code: ["var(--font-mono)", { weight: ["400", "700"] }],
+        readex: ["var(--font-readex)"],
       },
       keyframes: {
         "accordion-down": {
