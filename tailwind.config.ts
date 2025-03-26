@@ -62,9 +62,13 @@ const config = {
       },
       fontFamily: {
         sans: ["var(--font-sans)"],
-        mono: ["var(--font-mono)", { weight: ["400", "700"] }],
-        code: ["var(--font-mono)", { weight: ["400", "700"] }],
+        mono: ["var(--font-mono)"],
+        code: ["var(--font-mono)"],
         readex: ["var(--font-readex)"],
+      },
+      fontWeight: {
+        normal: '400',
+        bold: '700'
       },
       keyframes: {
         "accordion-down": {
