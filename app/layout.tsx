@@ -13,6 +13,7 @@ const sansFont = Space_Grotesk({
 
 const monoFont = Space_Mono({
   subsets: ["latin"],
+  weight: ["400", "700"],
   variable: "--font-mono",
   display: "swap",
 });

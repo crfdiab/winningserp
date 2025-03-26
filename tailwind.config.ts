@@ -62,8 +62,8 @@ const config = {
       },
       fontFamily: {
         sans: ["var(--font-sans)"],
-        mono: ["var(--font-mono)"],
-        code: ["var(--font-mono)"],
+        mono: ["var(--font-mono)", { weight: ["400", "700"] }],
+        code: ["var(--font-mono)", { weight: ["400", "700"] }],
         readex: ["var(--font-readex)"],
       },
       keyframes: {
